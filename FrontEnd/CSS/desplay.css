@@ -1,0 +1,115 @@
+/* 
+Block
+
+!-- take full width if no width
+-- respect padding, margin, width, height
+-- add line break
+-- dont allow elements before and after it
+
+Inline
+
+todo-- dont full width if no width (fit content)
+-- dont respect width, height
+-- respect padding, margin [just left + right]
+-- dont add line break
+-- allow elements before and after it
+
+Inline-Block
+
+?-- dont full width if no width (fit content)
+-- respect padding, margin, width, height
+-- dont add line break
+-- allow elements before and after it
+*/
+
+/*
+!   none 
+!-- hidden the element ever we press it
+!-- بروح كامل من الصفحة ما بظللها مكان
+*/
+
+/*
+todo     visibility
+todo -- زي desply none بس هاي بتترك مكان بالصفحة للعنصر المخفي
+*/
+
+/* span {
+    background-color: #EEE;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    height: 40px;
+} */
+
+body {
+    background-color: #ffe120;
+}
+
+div,
+.out {
+    background-color: #1c7e87;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    height: 40px;
+    font-size: 30px;
+}
+
+/* groupe */
+.none,
+.none1 {
+    background-color: #ed8014e8;
+    display: block;
+}
+
+.visibilty,
+.visibilty1 {
+    background-color: #29a056;
+}
+
+.visibilty {
+    visibility: visible;
+}
+
+.visibilty1 {
+    visibility: visible;
+}
+
+.visibilty2 {
+    background-color: #de5050;
+    visibility: visible;
+    position: relative;
+    top: 15px;
+    right: 20px;
+}
+
+/* nested*/
+div p {
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    padding: 5px;
+    margin: auto;
+    background-color: #4a97a9;
+}
+
+.visibilty1:hover {
+    background-color: #29a056;
+    visibility: hidden;
+}
+
+.none1:hover {
+    background-color: #ed8014e8;
+    display: none;
+}
+
+.checkbox {
+    background-color: #b550decf;
+}
+
+.ch:checked~.visibilty2 {
+    visibility: hidden;
+}
+
+.ch{
+     cursor: pointer; /* شكل الماوس */
+}

@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+
+div{
+    position: relative;
+    width: 400px;
+    margin: 20px auto;
+    background-color: rgb(199, 197, 197);
+    border-top: 3px solid   crimson  ;
+    border-bottom: 3px solid  crimson  ;
+    border-left: 3px solid  cornflowerblue  ;
+    border-right: 3px solid  cornflowerblue  ;
+    padding: 15px;
+}
+
+span{
+    background-color: cornflowerblue;
+    padding: 5px;
+    position: absolute;
+}
+.top-left,
+.bottom-left{
+    border-right: 2px solid red;
+}
+
+.top-right,
+.bottom-right{
+    border-left: 2px solid red;
+}
+
+.top-left{
+    top: 0;
+    left: 0;
+    transform: translate(-50% ,-50%);
+}
+.top-right{
+    top: 0;
+    right: 0;
+    transform: translate(50% ,-50%);
+}
+.bottom-left{
+    bottom: 0;
+    left: 0;
+    transform: translate(-50% ,50%);
+}
+.bottom-right{
+    bottom: 0;
+    right: 0;
+    transform: translate(50% ,50%);
+}

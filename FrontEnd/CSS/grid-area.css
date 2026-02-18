@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    box-sizing: border-box;
+}
+
+.parent{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 100px auto 200px;
+    grid-template-areas:
+     "header header nav nav nav nav nav nav nav nav"
+     "section section section section section section section section side side"
+     "footer footer footer footer footer footer footer footer footer footer";
+}
+
+
+
+h1{
+    padding: 15px;
+    background-color: crimson;
+    color: white;
+    grid-area: header;
+}
+
+nav{
+    padding: 15px;
+    background-color: rgb(127, 220, 20);
+    color: white;
+    grid-area: nav;
+}
+
+aside{
+    padding: 15px;
+    background-color: rgb(20, 187, 220);
+    color: white;
+    grid-area: side;
+}
+
+section{
+    padding: 15px;
+    background-color: rgb(220, 197, 20);
+    color: white;
+    grid-area: section;
+}
+
+footer{
+    padding: 15px;
+    background-color: rgb(110, 20, 220);
+    color: white;
+    grid-area: footer;
+}
+

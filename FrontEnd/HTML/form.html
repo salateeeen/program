@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>sultan</title>
+  <meta name="description" content="DOCTYPE dddd">
+  <style>
+    body {
+      background-color: rgb(162, 231, 25)
+    }
+  </style>
+</head>
+
+<body>
+
+  <form action="sultan.html" method="post"> <!-- input -->
+
+    <div>
+      <label>Name</label>
+      <input type="text" placeholder="SULTAN" value="SULTAN" name="user" disabled> <!-- ادخال نص -->
+
+      <br>
+      <hr>
+    </div>
+    
+    <div>
+      <label>Password </label>
+      <input type="password" placeholder="the Password is" value="12345" name="password" readonlyminlength="5" maxlength="10"> <!-- ادخال كلمة سر -->
+
+       <br>
+       <hr>
+    </div>
+    
+    <div>
+    <label>Gmail</label>
+    <input type="emaie" required value="sultan@gmail.com" name="gmail" autofocus> <!-- ادخال جيميل -->
+    <br>
+    <hr> 
+  </div>
+
+  <div>
+    <input type="range" min="0" max="100" step="10"> <!-- خط مستقيم لتحديد شيء معين -->
+    <br>
+    <hr>
+  </div>
+
+  <div>
+    <input type="number" min="10" max="70" step="15"> <!-- ادخال ارقام فقط -->
+    <br>
+    <hr>
+  </div>
+
+  <div>
+    <input id="w" type="radio" name="os" value="windows">                 
+    <label for="w">windows</label>
+    <br>
+    <input id="M" type="radio" name="os" value="MacPro"> <!-- اختيار خيار واحد فقط ويجب ان يكون ال3 لديهم نفس ال (name) --> <!--todo id من اجل الربط مع عناصر اخرى-->
+    <label for="M">MacPro</label>
+    <br>
+    <input id="L" type="radio" name="os" value="Linux" checked>
+    <label for="L">Linux</label>
+    <br>
+    <hr>
+  </div>
+
+  <div>
+    <input id="w1" type="checkbox" name="os" value="windows">
+    <label for="w1">windows</label>
+    <br>
+    <input id="M1" type="checkbox" name="os" value="MacPro"> <!-- اختيار اكثر من خيار ويجب ان يكون ال3 لديهم نفس ال (name) --> <!--todo id من اجل الربط مع عناصر اخرى-->
+    <label for="M1">MacPro</label>
+    <br>
+    <input id="L1" type="checkbox" name="os" value="Linux" checked>
+    <label for="L1">Linux</label>
+    <br>
+    <hr>
+  </div>
+
+  <div>
+    <select name="alphabet" id="Aa"> <!-- اختيار من متعدد مع جروبات داخلها عناصر -->
+      <optgroup label="cpital"> <!--todo اسم الجروب-->
+        <option value="A">A</option>  <!--! العنصر-->
+        <option value="B">B</option>
+        <option value="C" selected>C</option>
+      </optgroup>
+      <optgroup label="small">
+        <option value="a">a</option>
+        <option value="b">b</option>
+        <option value="c">c</option>
+      </optgroup>
+    </select>
+    <br>
+    <hr>
+  </div>
+
+  <div>
+    <input list="sultan" name="sultan"> <!-- اختيار من متعدد داخلها عناصر --> <!--todo name من اجل الربط مع عناصر اخرى-->
+    <datalist id="sultan"> <!--todo يجب وضعها حتى تظهر الليست-->
+  <option value="htm"> <!--! العنصر-->
+  <option value="php">
+  <option value="c++">
+  <option value="c">
+  <option value="c#">
+  </datalist>
+    <br>
+    <hr>
+  </div>
+
+  <div>
+    <textarea name="text" id="text" cols="20" rows="5" placeholder="text"></textarea> <!--مساحة كتابة-->
+    <br>
+    <hr>
+  </div>
+
+    <div>
+      <input type="submit" value="save"> <!--ارسال العناصر للمستقبل-->
+    <br>
+    <hr>
+  </div>
+
+    <div>
+      <input type="reset"> <!--اعادة الصفحة كما بدأت-->
+    </div> 
+
+  </form>
+
+</body>
+
+</html>

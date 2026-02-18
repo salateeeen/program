@@ -1,0 +1,28 @@
+div{ 
+    display: inline-block;
+}
+ .parent{
+     padding: 10px;
+     margin: 10px; 
+     background-color: chartreuse;
+ }
+
+.b,
+.before{
+    background-color: rgb(255, 208, 0);
+}
+
+.a,
+.after {
+    background-color: rgb(228, 10, 14);
+}
+
+.a,
+.b{
+    width: 20%;
+    height: 100%;
+}
+.before,
+.after{
+   width:78.7%;
+}

@@ -1,0 +1,41 @@
+.parent{
+    background-color: #aab8c5;
+    margin: 20px auto;
+    width: 800px;
+    height: 500px;
+    display: grid;
+
+    /* تزيع العناصر */
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    /* repeat(عدد التكرار , القيمة) */
+    grid-template-columns: repeat(5 , 20%);
+    /*! auto بوخذ اقل قيمة */
+    /*?  fr بوخذ كل المساحة الباقية */
+    grid-template-columns: auto auto 1fr 2fr;   
+    grid-template-columns: repeat(4 ,1fr);
+
+    /* نفس كل الي فوق بس لل row */
+    grid-template-rows: 1fr 2fr 1fr;
+
+    /* المسافات بين الصفوف والاعمدة */
+    column-gap: 10px;
+    row-gap: 10px;
+    gap: 10px 10px;
+
+
+    /* زي ال flex */
+    /*! لازم ما يكون المساحات fr لأنه بوخذ كل المساحة */
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.grid{
+    background-color: crimson;
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: aliceblue;
+    font-family: cursive;
+
+}

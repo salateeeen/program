@@ -1,0 +1,9 @@
+div{
+    background-color: crimson;
+    width: 320px;
+    height: 40px;
+    padding: 10px;
+    color: rgb(0, 179, 255);
+    box-shadow: 0 0 10px 2px rgb(54, 107, 229) /*inset*/,
+                0 0 10px 2px rgb(0, 255, 26) inset ;
+}

@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(43, 103, 242);
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+.parent{
+    position: relative;
+    padding: 10px;
+    background-image: linear-gradient( rgba(191, 232, 9, 0.775) , rgba(232, 154, 9, 0.962)) ;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.box{
+    position: absolute;
+    background-color: rgba(28, 232, 9, 0.962);
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    border-radius: 50%;
+}

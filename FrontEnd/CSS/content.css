@@ -1,0 +1,12 @@
+p{
+    background-color: crimson;
+    counter-increment:sultan ;
+}
+
+p::after{
+    content: counter(sultan);
+}
+
+.text-data::before{
+    content: attr(text);
+}

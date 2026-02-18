@@ -1,0 +1,14 @@
+D:\BackEnd\c#\random\bin\Debug\net9.0\random.exe
+D:\BackEnd\c#\random\bin\Debug\net9.0\random.deps.json
+D:\BackEnd\c#\random\bin\Debug\net9.0\random.runtimeconfig.json
+D:\BackEnd\c#\random\bin\Debug\net9.0\random.dll
+D:\BackEnd\c#\random\bin\Debug\net9.0\random.pdb
+D:\BackEnd\c#\random\obj\Debug\net9.0\random.GeneratedMSBuildEditorConfig.editorconfig
+D:\BackEnd\c#\random\obj\Debug\net9.0\random.AssemblyInfoInputs.cache
+D:\BackEnd\c#\random\obj\Debug\net9.0\random.AssemblyInfo.cs
+D:\BackEnd\c#\random\obj\Debug\net9.0\random.csproj.CoreCompileInputs.cache
+D:\BackEnd\c#\random\obj\Debug\net9.0\random.dll
+D:\BackEnd\c#\random\obj\Debug\net9.0\refint\random.dll
+D:\BackEnd\c#\random\obj\Debug\net9.0\random.pdb
+D:\BackEnd\c#\random\obj\Debug\net9.0\random.genruntimeconfig.cache
+D:\BackEnd\c#\random\obj\Debug\net9.0\ref\random.dll

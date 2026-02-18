@@ -1,0 +1,23 @@
+:root {
+    --SultanColor: rgb(221, 255, 0);
+    --SultanPadding: 15px;
+}
+
+div {
+    padding: var(--SultanPadding);
+    background-color: var(--SultanColor);
+}
+
+
+.one {
+    --SultanColor: #23aa54;
+    --SultanPadding: 10px;
+}
+
+p {
+    --SultanColor: #2384aa;
+    --SultanPadding: 10px;
+    padding: var(--SultanPadding);
+    background-color: var(--SultanColor);
+    margin: 10px;
+}

@@ -1,0 +1,48 @@
+body{
+    background-color:rgb(40 16 8);
+    padding: 0 0;
+}
+
+
+.s{
+    height: 400px;
+    width: 100%;
+
+    background-color: rgb(181, 198, 204); 
+    background-color: rgb(25 25 25/ 50%);
+    background-color: #905627;
+    background-image: url("../media/lion.jpg");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; /* cover الصورة بتغطي المساحة كاملة*/
+    background-size: contain; /* contain تظهر الصورة كاملة */
+   
+}
+
+.M {
+    color: rgb(0 0 0);
+    text-shadow: 1px 1px 0px #0c0c0c;  /*! الظلال */
+}
+
+#W {
+    color:rgb(222, 144, 34);
+}
+
+p {
+    color:rgb(0 0 0);
+    font-size:40px ;
+    
+}
+
+
+.sultan{
+    height: 300px;
+    width: 70%;
+    background-color: burlywood;
+    background-image: url(../media/fire.jpg);
+    background-size: 90%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: center center;
+}

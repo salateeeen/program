@@ -1,0 +1,14 @@
+D:\BackEnd\c#\dataTime\bin\Debug\net9.0\dataTime.exe
+D:\BackEnd\c#\dataTime\bin\Debug\net9.0\dataTime.deps.json
+D:\BackEnd\c#\dataTime\bin\Debug\net9.0\dataTime.runtimeconfig.json
+D:\BackEnd\c#\dataTime\bin\Debug\net9.0\dataTime.dll
+D:\BackEnd\c#\dataTime\bin\Debug\net9.0\dataTime.pdb
+D:\BackEnd\c#\dataTime\obj\Debug\net9.0\dataTime.GeneratedMSBuildEditorConfig.editorconfig
+D:\BackEnd\c#\dataTime\obj\Debug\net9.0\dataTime.AssemblyInfoInputs.cache
+D:\BackEnd\c#\dataTime\obj\Debug\net9.0\dataTime.AssemblyInfo.cs
+D:\BackEnd\c#\dataTime\obj\Debug\net9.0\dataTime.csproj.CoreCompileInputs.cache
+D:\BackEnd\c#\dataTime\obj\Debug\net9.0\dataTime.dll
+D:\BackEnd\c#\dataTime\obj\Debug\net9.0\refint\dataTime.dll
+D:\BackEnd\c#\dataTime\obj\Debug\net9.0\dataTime.pdb
+D:\BackEnd\c#\dataTime\obj\Debug\net9.0\dataTime.genruntimeconfig.cache
+D:\BackEnd\c#\dataTime\obj\Debug\net9.0\ref\dataTime.dll

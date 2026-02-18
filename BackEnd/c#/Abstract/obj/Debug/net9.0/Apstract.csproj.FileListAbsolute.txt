@@ -1,0 +1,14 @@
+D:\BackEnd\c#\Abstract\bin\Debug\net9.0\Apstract.exe
+D:\BackEnd\c#\Abstract\bin\Debug\net9.0\Apstract.deps.json
+D:\BackEnd\c#\Abstract\bin\Debug\net9.0\Apstract.runtimeconfig.json
+D:\BackEnd\c#\Abstract\bin\Debug\net9.0\Apstract.dll
+D:\BackEnd\c#\Abstract\bin\Debug\net9.0\Apstract.pdb
+D:\BackEnd\c#\Abstract\obj\Debug\net9.0\Apstract.GeneratedMSBuildEditorConfig.editorconfig
+D:\BackEnd\c#\Abstract\obj\Debug\net9.0\Apstract.AssemblyInfoInputs.cache
+D:\BackEnd\c#\Abstract\obj\Debug\net9.0\Apstract.AssemblyInfo.cs
+D:\BackEnd\c#\Abstract\obj\Debug\net9.0\Apstract.csproj.CoreCompileInputs.cache
+D:\BackEnd\c#\Abstract\obj\Debug\net9.0\Apstract.dll
+D:\BackEnd\c#\Abstract\obj\Debug\net9.0\refint\Apstract.dll
+D:\BackEnd\c#\Abstract\obj\Debug\net9.0\Apstract.pdb
+D:\BackEnd\c#\Abstract\obj\Debug\net9.0\Apstract.genruntimeconfig.cache
+D:\BackEnd\c#\Abstract\obj\Debug\net9.0\ref\Apstract.dll

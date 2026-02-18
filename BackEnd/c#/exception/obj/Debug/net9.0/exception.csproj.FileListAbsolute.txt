@@ -1,0 +1,14 @@
+D:\BackEnd\c#\exception\obj\Debug\net9.0\exception.GeneratedMSBuildEditorConfig.editorconfig
+D:\BackEnd\c#\exception\obj\Debug\net9.0\exception.AssemblyInfoInputs.cache
+D:\BackEnd\c#\exception\obj\Debug\net9.0\exception.AssemblyInfo.cs
+D:\BackEnd\c#\exception\obj\Debug\net9.0\exception.csproj.CoreCompileInputs.cache
+D:\BackEnd\c#\exception\bin\Debug\net9.0\exception.exe
+D:\BackEnd\c#\exception\bin\Debug\net9.0\exception.deps.json
+D:\BackEnd\c#\exception\bin\Debug\net9.0\exception.runtimeconfig.json
+D:\BackEnd\c#\exception\bin\Debug\net9.0\exception.dll
+D:\BackEnd\c#\exception\bin\Debug\net9.0\exception.pdb
+D:\BackEnd\c#\exception\obj\Debug\net9.0\exception.dll
+D:\BackEnd\c#\exception\obj\Debug\net9.0\refint\exception.dll
+D:\BackEnd\c#\exception\obj\Debug\net9.0\exception.pdb
+D:\BackEnd\c#\exception\obj\Debug\net9.0\exception.genruntimeconfig.cache
+D:\BackEnd\c#\exception\obj\Debug\net9.0\ref\exception.dll

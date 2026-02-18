@@ -1,0 +1,25 @@
+body{
+    margin: 10px auto;
+    width: 800px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.animation{
+    display: flex;
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: crimson;
+    font-size: 40px;
+    font-weight: bold;
+    color: aliceblue;
+
+
+
+    
+}

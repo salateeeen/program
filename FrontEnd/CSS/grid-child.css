@@ -1,0 +1,58 @@
+.parent{
+    background-color: #e6d6c6;
+    padding: 10px;
+    margin: 20px auto;
+    /* width: 800px; */
+    /* height: 500px; */
+}
+
+.parent{   
+    display: grid;
+    grid-template-columns: repeat(6 , auto);
+    grid-template-rows: repeat(3 , auto);
+    gap: 10px 10px;
+}
+
+.grid{
+    background-color: crimson;
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: aliceblue;
+    font-family: cursive;
+
+}
+
+.one{
+    /* grid-column: span 3; */
+    /* grid-column: 1/4; */
+    
+}
+.four{
+    /* grid-row: span 3; */
+}
+.seven{
+    /* grid-column: span 3; */
+}
+
+
+/* الend بوخذ الرقم الي قبلها */
+.nine{
+     transition-duration: 2s;
+}
+
+.nine:hover{
+    background-color: cornflowerblue;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 6;
+}
+.nine:hover ~ .eight
+{
+    display:block;
+}
+.eight{
+    display: none;
+}

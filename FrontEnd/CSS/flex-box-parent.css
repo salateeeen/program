@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+.parent {
+    background-color: thistle;
+    padding: 20px;
+    width: 800px;
+    height: 200px;
+    display: flex;
+    margin: 20px auto;
+}
+
+div:not([class="parent"]) {
+    background-color: crimson;
+    width: 25%;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.parent {
+    /* من اليمين الى اليسار حسب اتجاه الصفحة */
+    /*? flex-direction: row; */
+    /* عكس اتجاه الصفحة */
+    /*? flex-direction: row-reverse; */
+    /* من الاعلى الى الاسفل */
+    /*? flex-direction: column; */
+    /* من الاسفل الى الاعلى */
+    /*? flex-direction: column-reverse; */
+
+    
+    /* بخلي العنصر الزايد يطلع لفوق */
+    /*? flex-wrap: wrap-reverse; */
+    /* بخلي العنصر الزايد ينزل لتحت */
+    /*? flex-wrap: wrap; */
+    /* بخلي العنصر يضله عنفس السطر */
+    /*? flex-wrap: nowrap; */
+
+
+    /* اختصار لل2 الي فوق */
+     flex-flow: row wrap; 
+
+
+    /* بنزل من اليمين */
+    /*? justify-content:flex-end; */
+    /* بتوسط للنص */
+    /*? justify-content: center; */
+    /* space افقيا فقط */
+    /*? justify-content: space-between;*/
+    /*? justify-content: space-around; */
+    /* ?justify-content: space-evenly; */
+    /* بنزل من اليسار */
+    justify-content: flex-start;
+
+
+    /* توسيط العنصر من العمود */
+    /*? align-items: center; */
+    /* الاب بتمدد مع العنصر */
+    align-items: flex-start;
+    /* align-items: stretch; */
+
+
+    /* زي justify بس عموديا */
+    align-content: space-between;
+    align-content: center;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}

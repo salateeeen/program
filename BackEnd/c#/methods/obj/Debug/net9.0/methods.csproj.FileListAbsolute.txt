@@ -1,0 +1,14 @@
+D:\BackEnd\c#\methods\obj\Debug\net9.0\methods.GeneratedMSBuildEditorConfig.editorconfig
+D:\BackEnd\c#\methods\obj\Debug\net9.0\methods.AssemblyInfoInputs.cache
+D:\BackEnd\c#\methods\obj\Debug\net9.0\methods.AssemblyInfo.cs
+D:\BackEnd\c#\methods\obj\Debug\net9.0\methods.csproj.CoreCompileInputs.cache
+D:\BackEnd\c#\methods\bin\Debug\net9.0\methods.exe
+D:\BackEnd\c#\methods\bin\Debug\net9.0\methods.deps.json
+D:\BackEnd\c#\methods\bin\Debug\net9.0\methods.runtimeconfig.json
+D:\BackEnd\c#\methods\bin\Debug\net9.0\methods.dll
+D:\BackEnd\c#\methods\bin\Debug\net9.0\methods.pdb
+D:\BackEnd\c#\methods\obj\Debug\net9.0\methods.dll
+D:\BackEnd\c#\methods\obj\Debug\net9.0\refint\methods.dll
+D:\BackEnd\c#\methods\obj\Debug\net9.0\methods.pdb
+D:\BackEnd\c#\methods\obj\Debug\net9.0\methods.genruntimeconfig.cache
+D:\BackEnd\c#\methods\obj\Debug\net9.0\ref\methods.dll

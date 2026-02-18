@@ -1,0 +1,60 @@
+body {
+    min-height: 1500px;
+    /* min-width: 1500px; */
+}
+
+
+div {
+    width: 60px;
+    /* margin: 10px; */
+    padding: 10px;
+
+}
+
+.parent {
+    background-color: rgba(255, 251, 0, 0.977);
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    border: 5px solid black;
+    /* filter: grayscale(100%); */
+    position: relative;
+}
+
+.one {
+    background-color: rgb(220, 20, 60);
+    position: absolute;
+    /*! بالنسبة للأب */
+    /*? top:  calc(50% - (38.56px / 2)); */
+    /*? right:calc(50% - 40px); */
+    bottom: 0;
+    right: 0;
+    /* z-index: 3; */
+}
+
+.two {
+    background-color: rgb(0, 177, 242);
+    width: 70px;
+    position: relative;
+    /*TODO بالنسية لنفسها */
+    top: 20px;
+    right: 0;
+    /* z-index: 2; */
+}
+
+.three {
+    background-color: forestgreen;
+    position: fixed;
+    /*! بالنسبة للأب */
+    bottom: 0;
+    left: 0;
+}
+
+.four {
+    background-color: rgb(255, 132, 0);
+    position: sticky;
+    height: 20px;
+    /*TODO بالنسية لنفسها */
+    top: 100px;
+    left: 98px;
+}

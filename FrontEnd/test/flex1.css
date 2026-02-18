@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+
+.parent{
+    background-color: rgb(250, 174, 174);
+    display: flex;
+    width: 600px;
+    height: 300px;
+    margin: 20px auto;
+    flex-direction: row;
+    justify-content: space-around;
+    /* align-items:flex-start; */
+    align-content: space-between;
+    flex-wrap: wrap;
+
+
+}
+
+.parent div{
+    background-color: crimson;
+    width: calc(94% / 3);
+    display: flex;
+    padding: 10px;
+    /* justify-content: center;
+    align-items: center; */
+
+}
+/* .c{
+    align-self: flex-end;
+} */

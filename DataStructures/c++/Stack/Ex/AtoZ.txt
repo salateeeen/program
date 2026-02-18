@@ -1,0 +1,94 @@
+else if (word[i] == 'D' ||word[i] == 'd' )
+            {
+                 while (word[i] != '#' && word[i] != '$')
+               D.push(word[i]);
+            }else if (word[i] == 'E' ||word[i] == 'e' )
+            {
+                 while (word[i] != '#' && word[i] != '$')
+               E.push(word[i]);
+            }else if (word[i] == 'F' ||word[i] == 'f' )
+            {
+                 while (word[i] != '#' && word[i] != '$')
+               F.push(word[i]);
+            }else if (word[i] == 'G' ||word[i] == 'g' )
+            {
+                 while (word[i] != '#' && word[i] != '$')
+               G.push(word[i]);
+            }else if (word[i] == 'H' ||word[i] == 'h' )
+            {
+                 while (word[i] != '#' && word[i] != '$')
+               H.push(word[i]);
+            }else if (word[i] == 'I' ||word[i] == 'i' )
+            {
+                 while (word[i] != '#' && word[i] != '$')
+               I.push(word[i]);
+            }else if (word[i] == 'J' ||word[i] == 'j' )
+            {
+                 while (word[i] != '#' && word[i] != '$')
+               J.push(word[i]);
+            }else if (word[i] == 'K' ||word[i] == 'k' )
+            {
+                 while (word[i] != '#' && word[i] != '$')
+               K.push(word[i]);
+            }else if (word[i] == 'L' ||word[i] == 'l' )
+            {
+                 while (word[i] != '#' && word[i] != '$')
+               L.push(word[i]);
+            }else if (word[i] == 'M' ||word[i] == 'm' )
+            {
+                 while (word[i] != '#' && word[i] != '$')
+               M.push(word[i]);
+            }else if (word[i] == 'N' ||word[i] == 'n' )
+            {
+                 while (word[i] != '#' && word[i] != '$')
+               N.push(word[i]);
+            }else if (word[i] == 'O' ||word[i] == 'o' )
+            {
+                 while (word[i] != '#' && word[i] != '$')
+               O.push(word[i]);
+            }else if (word[i] == 'P' ||word[i] == 'p' )
+            {
+                 while (word[i] != '#' && word[i] != '$')
+               P.push(word[i]);
+            }else if (word[i] == 'Q' ||word[i] == 'q' )
+            {
+                 while (word[i] != '#' && word[i] != '$')
+               Q.push(word[i]);
+            }else if (word[i] == 'R' ||word[i] == 'r' )
+            {
+                 while (word[i] != '#' && word[i] != '$')
+               R.push(word[i]);
+            }else if (word[i] == 'S' ||word[i] == 's' )
+            {
+                 while (word[i] != '#' && word[i] != '$')
+               S.push(word[i]);
+            }else if (word[i] == 'T' ||word[i] == 't' )
+            {
+                 while (word[i] != '#' && word[i] != '$')
+               T.push(word[i]);
+            }else if (word[i] == 'U' ||word[i] == 'u' )
+            {
+                 while (word[i] != '#' && word[i] != '$')
+               U.push(word[i]);
+            }else if (word[i] == 'V' ||word[i] == 'v' )
+            {
+                 while (word[i] != '#' && word[i] != '$')
+               V.push(word[i]);
+            }else if (word[i] == 'W' ||word[i] == 'w' )
+            {
+                 while (word[i] != '#' && word[i] != '$')
+               W.push(word[i]);
+            }else if (word[i] == 'X' ||word[i] == 'x' )
+            {
+                 while (word[i] != '#' && word[i] != '$')
+               X.push(word[i]);
+            }else if (word[i] == 'Y' ||word[i] == 'y' )
+            {
+                 while (word[i] != '#' && word[i] != '$')
+               Y.push(word[i]);
+            }else if (word[i] == 'Z' ||word[i] == 'z' )
+            {
+                 while (word[i] != '#' && word[i] != '$'){
+                    Z.push(word[i]);
+                    i++;
+                 } 

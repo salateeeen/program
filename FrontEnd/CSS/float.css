@@ -1,0 +1,94 @@
+body {
+    background-color: #6e3bef;
+}
+
+
+/*! زي كأنه بعوم فوق كل العناصر */
+/* الكلير بترجعنا نكتب زي العناصر الطبيعية */
+.float {
+    background-color: rgb(249, 159, 33);
+    padding: 5px;
+    margin: 10px;
+    overflow: hidden;
+
+}
+
+p {
+    margin: 0;
+    padding: 10px;
+    /* float: left; */
+
+}
+
+.one {
+    background-color: rgba(255, 0, 0, 0);
+    float: left;
+}
+
+.tow {
+    background-color: rgba(255, 0, 0, 0.252);
+    float: left;
+}
+
+.three {
+    background-color: rgba(255, 0, 0, 0.511);
+    float: left;
+}
+
+.four {
+    background-color: rgba(255, 0, 0, 0.745);
+    float: left;
+}
+
+.nav1 {
+    /* float: left; */
+    /* clear: both; */
+    margin-left: 0; /*TODO خليها عشان تشوف كيف العناصرالي مش فلوت رح تيجي*/
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+.end{
+    clear: both;
+}
+
+
+
+.none {
+    background-color: rgb(249, 33, 188);
+    margin: 10px;
+    padding: 5px;
+    overflow: hidden;
+
+}
+
+.none .non{
+    margin: 0;
+    padding: 10px;
+   
+}
+
+.one1 {
+    background-color: rgba(219, 22, 22);
+}
+
+.tow1 {
+    background-color: rgba(165, 42, 42);
+}
+
+.three1 {
+    background-color: rgb(177 220 20);
+}
+
+.four1 {
+    background-color: rgb(51 93 162);
+    opacity: 0;
+}
+
+.nav2 {
+    /* float: left; */
+    padding: 10px;
+    background-color: rgb(230, 253, 19);
+}

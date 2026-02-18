@@ -1,0 +1,17 @@
+div{
+    background-color: cadetblue;
+    width: 400px;
+    height: 200px;
+   
+    /* transition-duration: 2s; */
+    /* transition-delay: 0.5s; */
+    /* transition-timing-function: ease-out ; */
+    /* transition-property: width , background-color ; */
+    transition: width 2s ease 0.5s , background-color 3s ease-in 0.25s , height 4s linear 0s;
+    /* transition-behavior: ; */
+}
+div:hover{
+    width: 800px;
+    height: 250px; 
+    background-color: gold;
+}

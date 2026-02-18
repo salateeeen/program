@@ -1,0 +1,15 @@
+div{
+    background-color: #1b92b2;
+    padding: 10px;
+    overflow: hidden;
+}
+p{
+    float: left;
+    background-color: #2dfff5;
+    width:  calc(25% - (40px / 4) );
+    padding:10px;
+    margin: 5px; /* غير margin-left لحالها */
+    /*! box-sizing: content-box;    <defult>  */
+    box-sizing: border-box;
+
+}

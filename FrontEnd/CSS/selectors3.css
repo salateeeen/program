@@ -1,0 +1,38 @@
+p {
+    margin: 0;
+}
+
+div:not([title]) {
+    color: crimson;
+}
+
+/* بدنا p يكون رابع ابن بالاب تاعه */
+p:nth-child(4){
+    color: aquamarine;
+}
+
+/* بدنا p يكون رابع ابن بالاب تاعه */
+div:nth-of-type(2){
+    color: darksalmon;
+}
+
+/* الابن من تحت */
+:nth-last-child(6){
+    color: rgb(217, 236, 10);
+}
+
+/* الdiv بس من تحت */
+div:nth-last-of-type(2){
+    color: green;
+}
+
+/* 
+    :root جذر الصفحة
+    :empty
+    :checked
+    :disabeld
+    :required
+    :focus
+    ::selection
+    ::placeholder
+*/

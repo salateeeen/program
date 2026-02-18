@@ -1,0 +1,48 @@
+body{
+    /* background-image: url(../media/صور-خريطة-الأردن.jpg); */
+    /* background-repeat: repeat; */
+    /* background-size:cover;  */
+    background-color:#1d6c3d;;
+}
+
+div{
+    background-color: gold;
+    width: calc(70% + 50px);
+    height: 500px;
+    
+
+    /*! top right bottom left */
+    /*todo هامش العنصر نفسه من الداخل (+)*/
+    padding: 5px;
+
+    /*! top right bottom left */
+    /*todo هامش الفضاء خارج العنصر (- +) */
+    margin: 0px auto;
+    /*! top right bottom left */
+    /* border-width: 10px;
+    border-color: rgba(112, 128, 144, 0.37) rgba(112, 128, 144, 0.995) ;
+    border-style: inset; */
+    border: 10px solid rgb(173 134 3);
+    
+    /*! فقط بتنكتب مرة واحدة وبتطبق لكل الاتجاهات  */
+    /* outline: 10px rgb(162, 183, 201) solid; */
+    box-sizing: border-box;
+}
+div p{
+    background-color: olive;
+    padding: 5px;
+    width: calc(100 - 20px);
+    margin: 10px 10px;
+    height: calc( (100% - 40px) / 3 );
+    color: white;
+    box-sizing: border-box;
+}
+
+
+div p{
+    text-align: center;
+    display: flex;
+    font-size: x-large;
+    justify-content: center;
+    align-items: center;
+}

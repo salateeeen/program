@@ -1,0 +1,63 @@
+p{
+    margin: 0;
+}
+
+/* لكل العناصر الموجودة بالبرنامج */
+*{
+    font-size: 50px;
+}
+
+/* اي space1 موجودة جوا space ومش لازم ابن مباشر */
+.space .space1{
+    color: crimson;
+}
+
+/* اي great1 موجودة جوا great ولازم ابن مباشر */
+.great > .great1{
+    color: gold;
+}
+
+/* عنصر في هذول ال2 classes */
+.class1.class2{
+    color: rgb(20, 157, 220);
+}
+
+/* اي class3 لكن مع element p */
+p.class3{
+    color: #000;
+}
+
+/* لازم p تكون متبوعة ب div عطول */
+div + .son{
+    color: purple;
+}
+
+/* جميع العناصر الاشقاء للعنصر اي على نفس المستوى */
+.after ~ .after1{
+    color: hotpink;
+}
+
+/*? عمل التعديلات من خلال ال attribute */
+ [title]{
+    color: rgb(85, 155, 173);
+} 
+ [title="sultan1"]{
+    color: rgb(240, 213, 8);
+} 
+ 
+/*? عمل التعديلات من خلال ال attribute و element */
+div[title]{
+    color: rgb(107, 23, 209);
+}
+div[title="sultan1"]{
+    color: rgb(224, 10, 121);
+}
+div[title*=sultano]{ /*! string */
+    color: rgb(5, 122, 255);
+}
+div[title~=sultan]{ /*! word */
+    color: seagreen;
+}
+div[title^=Sultan]{ /*! start with string */
+    color: rgb(31, 32, 32);
+}

@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+    /* width: 1200px; */
+    padding: 20px;
+    background-color: rgb(247, 206, 199);
+    /*! flex-direction: column; */
+}
+.flex-child{
+    display: flex;
+    width: 120px;
+    height: 70px;
+    padding: 20px;
+    margin: 10px;
+    background-color: crimson;
+    color: rgb(242, 245, 220);
+    justify-content: center;
+    align-items: center;
+}
+.flex-child{
+    /* نمو العناصر حتى تملأ الاب */
+    flex-grow: 1;
+    height: 200px;
+}
+.one{
+    /* اذا بتحرك لقدام عادي بس اذا بتحرك لورا لازم اجيبه محل عنصر فاضي يعني اقدم واحد لقدام */
+    order: 6;
+}
+.two{
+    /* ررح تنمو اكثر من الباقي مرتين */
+    flex-grow: 2;
+    order: 5;
+}
+.three{
+    /* لما تصغر الاب هاظ بقل اكثر من البقية */
+    flex-shrink: 3;
+    order:4;
+}
+.four{
+    /* لما يكون row بتعامل مع العرض ولما يكون column بتعامل مع الطول */
+    /*! flex-basis: 300px; */
+    order:3 ;
+}
+.five{
+    height: 50px;
+    /* محاذاة للعنصر نفسه */
+    align-self: flex-end;
+    order: 2;
+}
+.sex{
+    order:6;
+}

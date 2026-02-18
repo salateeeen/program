@@ -1,0 +1,50 @@
+body {
+    height: 450px;
+    display: flex;
+    align-items: center;
+}
+
+.parent {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(169, 166, 166, 0.625);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.perspective{
+    perspective: 1000px;
+    perspective-origin: right bottom;
+    /* من وين انا بتطلع عالجسم*/
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    align-items: center;
+    margin: auto;
+}
+
+.place {
+    font-size: large;
+    color: aliceblue;
+    font-weight: bold;
+    background-color: rgba(220, 20, 60, 0.7);
+    width: 95%;
+    height: 95%;
+    border: 2px solid crimson;
+}
+
+.transform {
+    /* transition-duration: 2s; */
+    transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 300px);
+}
+
+.transform:hover {
+    /* transform: rotate3d(0,1,0 ,90deg); زي كأنك لفيت اللوحة */
+    /* transform-origin: right bottom; */
+}

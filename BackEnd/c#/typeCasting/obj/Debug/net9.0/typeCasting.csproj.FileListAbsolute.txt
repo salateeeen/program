@@ -1,0 +1,14 @@
+D:\BackEnd\c#\typeCasting\bin\Debug\net9.0\typeCasting.exe
+D:\BackEnd\c#\typeCasting\bin\Debug\net9.0\typeCasting.deps.json
+D:\BackEnd\c#\typeCasting\bin\Debug\net9.0\typeCasting.runtimeconfig.json
+D:\BackEnd\c#\typeCasting\bin\Debug\net9.0\typeCasting.dll
+D:\BackEnd\c#\typeCasting\bin\Debug\net9.0\typeCasting.pdb
+D:\BackEnd\c#\typeCasting\obj\Debug\net9.0\typeCasting.GeneratedMSBuildEditorConfig.editorconfig
+D:\BackEnd\c#\typeCasting\obj\Debug\net9.0\typeCasting.AssemblyInfoInputs.cache
+D:\BackEnd\c#\typeCasting\obj\Debug\net9.0\typeCasting.AssemblyInfo.cs
+D:\BackEnd\c#\typeCasting\obj\Debug\net9.0\typeCasting.csproj.CoreCompileInputs.cache
+D:\BackEnd\c#\typeCasting\obj\Debug\net9.0\typeCasting.dll
+D:\BackEnd\c#\typeCasting\obj\Debug\net9.0\refint\typeCasting.dll
+D:\BackEnd\c#\typeCasting\obj\Debug\net9.0\typeCasting.pdb
+D:\BackEnd\c#\typeCasting\obj\Debug\net9.0\typeCasting.genruntimeconfig.cache
+D:\BackEnd\c#\typeCasting\obj\Debug\net9.0\ref\typeCasting.dll

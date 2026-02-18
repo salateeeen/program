@@ -1,0 +1,55 @@
+body{
+    background-color: #282929cf;
+}
+
+div{
+    background-color:#d24156 ;
+    padding: 1px;
+    margin: 10px;
+    text-shadow: 2px 2px 0 rgb(171, 244, 14); /*! shadow */ /* inheritance */
+}
+
+p{
+   background-color: rgb(255 225 32);
+    color: rgb(41 160 86);
+    margin: 10px;
+    padding: inherit;  /*? للخواص الي ما بنعمللهم inherit عطول   */
+}
+
+.ar{
+   text-indent: 3px;
+    text-align: right;  /* نحريك موقع النص كامل الى اليمين او اليسار او الوسط */
+    direction: rtl;  /*  ببلش كتابة من اليمين الى اليسار */
+}
+
+.en{
+    text-align: left;
+    direction: ltr;
+}
+
+img{
+    vertical-align: middle; /* عند وضع الصورة بالنص لتحديد اتجاهها */
+}
+
+.decoration{
+    text-shadow: none;
+    text-decoration: none;
+}
+
+.transform{
+    text-transform: uppercase;
+}
+
+.letter-spacing{
+    letter-spacing: 5px; /*? الفراغ بين الاحرف */
+    text-indent: 10px; /*? الفراغ قبل الكنابة */
+}
+
+.word-spacing{
+    word-spacing: 10px; /* الفراغ بين الكلمات */
+    text-indent: 10px; /* الفراغ قبل الكنابة */
+}
+
+.line-height{
+    line-height: 1.6; /*todo المسافة بين السطور */
+}

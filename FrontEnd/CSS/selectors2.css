@@ -1,0 +1,41 @@
+*{
+    font-size: 50px; 
+}
+
+p{
+    margin: 0;
+}
+
+/* يجب ان يكون الابن الاول لأي عنصر */
+p:first-child{
+    color: crimson;
+}
+
+/* يجب ان يكون الابن الاخير لأي عنصر */
+.last-child:last-child{
+    color: rgb(43, 233, 13);
+}
+
+/* الp الأول من نوعه جوا الاب */
+p:first-of-type{
+    font-family: fantasy;
+}
+
+/* الp الاخر من نوعه جوا الاب */
+p:last-of-type{
+    color: darkorange;
+}
+
+/* الelement الوحيد من نوعه جوا الاب */
+p:only-child{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color: deepskyblue;
+}
+
+/* الp الوحيد من نوعه جوا الاب */
+.only:only-of-type{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color: rgb(255, 0, 225);
+}

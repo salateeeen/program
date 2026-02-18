@@ -1,0 +1,21 @@
+.parent{
+    background-color: rgb(238, 238, 83);
+    padding: 10px;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five{
+    background-color: crimson;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px; /* الp رح يصير من فوق 16 px لأنه عنده اياه افتراضي */
+    margin: 10px;
+}
+span{
+    display: inline-block; /* collaps بس لل block */
+    /* display: block; */
+    width: 60%;
+}
