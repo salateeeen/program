@@ -3,5 +3,8 @@ node_modules/
 dist/
 build/
 
-BackEnd/node/projects/
-FrontEnd/React/projects/
+back-end/node/projects/
+front-end/react/projects/
+mazraeatak/
+pdf/
+

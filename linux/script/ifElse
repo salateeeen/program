@@ -1,0 +1,9 @@
+#!/bin/bash
+
+count=27
+if [ $count -eq 27 ]
+then
+echo 'connt = 27'
+else
+echo 'count != 27'
+fi
