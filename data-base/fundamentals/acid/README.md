@@ -4,7 +4,7 @@
 
 First, let us start by explaining the meaning of a **transaction**.
 
-> **Transaction:** A collection of operations that represents one unit of work.
+**Transaction:** A collection of operations that represents one unit of work.
 
 ### ACID Properties
 
