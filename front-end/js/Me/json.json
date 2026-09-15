@@ -1,0 +1,24 @@
+[
+    {
+        "myName": "sultan",
+        "me": "im the best",
+        "age": 21,
+        "arr": [7, 2, 2004],
+        "obj": {
+          "c": "computer",
+          "e": "engineering"
+        }
+      },
+      
+      {
+        "myName": "sultan",
+        "me": "im the best",
+        "age": 21,
+        "arr": [7, 2, 2004],
+        "obj": {
+          "c": "computer",
+          "e": "engineering"
+        }
+      }
+          
+]
