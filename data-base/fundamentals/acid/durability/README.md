@@ -6,6 +6,8 @@
 
 ## Durability Techniques
 
+* **Asynchronous Snapshot:** Write everything to memory and then flush the entire set of changes to disk at once.
+
 * **WAL (Write-Ahead Log):** Write all changes as a log before applying the actual changes to the database files. The log is flushed to persistent storage first, and then the actual changes can be written to disk. Once the work is completed, the corresponding log records can be marked as completed.
 
 ### Why Do We Need WAL?
@@ -19,8 +21,6 @@ For example, if we need to delete a row from an **index-organized table (IOT)**,
   * Modify or reorganize pages on disk.
 
 Instead of immediately performing all these expensive operations, the DBMS can first record the required changes in the WAL. This makes recovery possible if the system crashes before all changes are applied.
-
-* **Asynchronous Snapshot:** Write everything to memory and then flush the entire set of changes to disk at once.
 
 ## Durability and OS Cache
 
