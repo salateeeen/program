@@ -37,7 +37,7 @@ SELECT name
 FROM grades
 WHERE name = 'sultan'
   AND age = 21;
-
+```
 Here, we can decrease the number of heap page fetches by combining the two bitmaps using an AND operation.
 
 | Bitmap | Page 1 | Page 2 | Page 3 | Page 4 | Page 5 |
