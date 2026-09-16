@@ -11,8 +11,8 @@ Because UUIDs are typically random, using them as a primary key can affect perfo
 > As an example, here the page size is `2`, and we need to split the pages several times just to insert 7 values. Now imagine how many rows may need to be shifted from the beginning to the end.
 
 <p>
-  <img src="./images/start.png">
-  <img src="./images/end.png">
+  <img src="./images/start.png" width="45%" height="100%">
+  <img src="./images/end.png" width="45%" height="100%">
 </p>
 
 ## What Happens?
