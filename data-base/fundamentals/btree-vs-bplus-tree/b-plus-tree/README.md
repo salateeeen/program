@@ -18,7 +18,7 @@ In a B+Tree, **root** and **internal** nodes only store the keys.
 
 When we reach a **leaf node**, it stores elements containing both a **key** (what you are searching for) and a **value**.
 
-The value can be either a `row_id` in some databases or the **primary key** in other databases.
+The value can be either a `row_id` in some databases or the **primary key** in other databases or maybe contain the full row since its an IOT(Index Organized Table).
 
 In many databases, a node is designed to fit into one logical page for performance reasons.
 
