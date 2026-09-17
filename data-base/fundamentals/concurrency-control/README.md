@@ -1,7 +1,15 @@
 # CONCURRENCY
 
-## why the concerrency happen?
-since we have cloude server databases otlp and many users can request the database and create many transactions then this can lead to modify or read the same row from many transaction then maybe we can get race condition
+## Why Does Concurrency Happen?
 
-# what is the race condition
-many threads or processes update the same value in the same time and last one finsh executed is win that lead to data inconsistency
+Since we have **cloud databases**, **OLTP systems**, and many users sending requests to the database at the same time, multiple transactions can run concurrently.
+
+These transactions may try to **read or modify the same row** at the same time, which can lead to **race conditions**.
+
+## What Is a Race Condition?
+
+A **race condition** happens when multiple threads, processes, or transactions access and modify the same data concurrently, and the final result depends on the order in which they execute.
+
+This can lead to **data inconsistency** if the concurrent operations are not properly controlled.
+
+![alt text](image/race-condition.png)
