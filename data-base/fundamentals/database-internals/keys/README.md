@@ -4,7 +4,7 @@
 
 The heap is organized based on the primary key. Therefore, when writing, it can take more time to reorganize and shift the rows inside the pages to keep them ordered by the key.
 
-This is also called an **IOT (Index-Organized Table)**.
+This is also called an **IOT (Index Organized Table)**.
 
 DBMSs are smart enough to leave some space between the rows to avoid shifting entire pages when inserting new values. For example, if we have `id = 1` and then insert `id = 8`, it doesn't necessarily put the new row in the same page.
 

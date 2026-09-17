@@ -1,8 +1,8 @@
-# KEY VS NON-KEY INDEXING
+# KEY VS NONKEY INDEXING
 
 ## Covered Query
 
-The best queries are those where everything we need is included in the index (**covered query**), so we don't need to go to the heap to fetch the rows (**index-only scan**).
+The best queries are those where everything we need is included in the index (**covered query**), so we don't need to go to the heap to fetch the rows (**index only scan**).
 
 ### Key
 
@@ -36,7 +36,7 @@ If we add other columns to the index, they are also ordered after `name` and `ag
   <img src="./images/i-o-s.png">
 </p>
 
-### Non-Key
+### Non Key
 
 When we create a composite index, we can also **include** additional columns that are not part of the index key. These columns can help us with reads without affecting the ordering of the index.
 

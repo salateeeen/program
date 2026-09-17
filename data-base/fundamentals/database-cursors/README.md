@@ -17,7 +17,7 @@ A **cursor** is a database object used to retrieve query results row by row inst
 
 ## Client Side vs Server Side Cursor
 
-### Client-Side
+### Client Side
 
 ```sql
 SELECT name
@@ -29,9 +29,9 @@ Here, the DBMS executes the query and returns the result to the backend client, 
 
 The client receives the result and can process it from its own memory.
 
-### Server-Side
+### Server Side
 
-In PostgreSQL, we can create a server-side cursor inside a transaction:
+In PostgreSQL, we can create a server side cursor inside a transaction:
 
 ```sql
 BEGIN;
@@ -70,7 +70,7 @@ When the client and server establish the cursor, the query is planned and the cu
 
 In a normal query, executing a query can take a long time because we need to read the data and send the results through the TCP connection to the client.
 
-With a server-side cursor, we can fetch the data in smaller batches. However, each fetch requires communication over the network.
+With a server side cursor, we can fetch the data in smaller batches. However, each fetch requires communication over the network.
 
 ## Pros of Server Side Cursors
 

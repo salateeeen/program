@@ -16,9 +16,9 @@ Multiple transactions (users) may need to read or update the same data, which ca
 
   ![DIRTY READ EXAMPLE](./images/dirty.png)
 
-* **Non-Repeatable Read:** After starting your transaction, another transaction changes the data and commits these changes. Then, after that, you read the same data.
+* **Non Repeatable Read:** After starting your transaction, another transaction changes the data and commits these changes. Then, after that, you read the same data.
 
-  ![NON-REPEATABLE READ EXAMPLE](./images/non-repeatable.png)
+  ![NON REPEATABLE READ EXAMPLE](./images/non-repeatable.png)
 
 * **Phantom Read:** After starting your transaction, another transaction inserts new rows and commits these inserts. Then, you want to read the entire table.
 

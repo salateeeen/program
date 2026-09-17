@@ -2,7 +2,7 @@
 
 ## What Is a B+Tree?
 
-A **B+Tree** is similar to a B-tree, but all values are stored in the **leaf nodes**. The root and internal nodes only store keys, while the leaf nodes store both keys and values.
+A **B+Tree** is similar to a Btree, but all values are stored in the **leaf nodes**. The root and internal nodes only store keys, while the leaf nodes store both keys and values.
 
 ![B+Tree](images/pplustree.png)
 

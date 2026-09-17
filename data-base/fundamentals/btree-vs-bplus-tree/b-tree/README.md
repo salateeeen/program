@@ -1,8 +1,8 @@
 # BTREE
 
-## What Is a B-Tree?
+## What Is a BTree?
 
-A **B-tree** is a balanced tree data structure used to efficiently store and sort inserted nodes by one or multiple keys.
+A **Btree** is a balanced tree data structure used to efficiently store and sort inserted nodes by one or multiple keys.
 
 If the degree is `m`, then each node can have up to `m` children and `m - 1` elements inside the node.
 
@@ -10,17 +10,17 @@ If the degree is `m`, then each node can have up to `m` children and `m - 1` ele
 The best case is find the key you serche in the root **O(1)**.
 The worst case is traversing the height of the tree, which is **O(log N)**.
 
-![B-Tree](images/btree.png)
+![BTree](images/btree.png)
 
 ## What Is Stored in a Node?
 
-In a B-tree, each node (**root, internal, and leaf**) stores elements containing both a **key** (what you are searching for) and a **value**.
+In a Btree, each node (**root, internal, and leaf**) stores elements containing both a **key** (what you are searching for) and a **value**.
 
 The value can be either a `row_id` in some databases or the **primary key** in other databases.
 
 In many databases, a node is designed to fit into one logical page for performance reasons.
 
-## What Are the Limitations of a B-Tree?
+## What Are the Limitations of a BTree?
 
 1. **More space usage:**
 
@@ -30,4 +30,4 @@ In many databases, a node is designed to fit into one logical page for performan
 
    Range queries can be less efficient because we start by searching for a value and then need to continue searching for the next values in the range.
 
-   In some B-tree implementations, after finding a value, we may need to perform another search from the root to find the next value. This can lead to more random access and more I/O operations.
+   In some Btree implementations, after finding a value, we may need to perform another search from the root to find the next value. This can lead to more random access and more I/O operations.

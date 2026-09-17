@@ -6,7 +6,7 @@
 
 ## Main Characteristics of MyISAM
 
-1. **B-Tree Indexes**: Indexes point directly to the rows.
+1. **BTree Indexes**: Indexes point directly to the rows.
 
 2. **No Transactions**: MyISAM does not support transactions.
 
@@ -18,7 +18,7 @@
 
 6. **Crash Problems**: A database crash can corrupt tables, which may require manual repair.
 
-7. **Table-Level Locking**: MyISAM uses table-level locking.
+7. **Table Level Locking**: MyISAM uses table level locking.
 
 ## Database Support
 

@@ -2,7 +2,7 @@
 
 ## What Is an Index?
 
-**Index:** A data structure (B-tree) separate from the heap that has pointers to the heap. It contains only some of the data and is used to search quickly. Once you find the value in the index, you go to the heap to fetch more information. It is also stored in pages and requires I/O operations to fetch.
+**Index:** A data structure (Btree) separate from the heap that has pointers to the heap. It contains only some of the data and is used to search quickly. Once you find the value in the index, you go to the heap to fetch more information. It is also stored in pages and requires I/O operations to fetch.
 
 * Every primary key has an index by default.
 
@@ -40,6 +40,6 @@ In `EXPLAIN`, we get approximately four things that come from the table metadata
 
 ### Query Execution Plan
 
-`EXPLAIN` also shows us how the query will be executed, such as using an **index scan**, **sequential scan**, **index-only scan**, etc.
+`EXPLAIN` also shows us how the query will be executed, such as using an **index scan**, **sequential scan**, **index only scan**, etc.
 
 ![EXPLAIN](./images/explain.png)

@@ -2,9 +2,9 @@
 
 ## How Do We Structure the Table Inside Pages?
 
-### Row-Oriented Databases
+### RowOriented Databases
 
-![Row-Oriented](images/row-oriented.png)
+![Row Oriented](images/row-oriented.png)
 
 * Tables are stored as contiguous rows on the disk inside each page. A single I/O can fetch multiple rows.
 
@@ -16,9 +16,9 @@
 
 * After finding a row, you get all columns for that row.
 
-### Column-Oriented Databases
+### Column Oriented Databases
 
-![Column-Oriented](images/column-oriented.png)
+![Column Oriented](images/column-oriented.png)
 
 * Tables are stored as columns first on the disk inside each page. A single I/O can fetch multiple values from a column.
 
@@ -38,7 +38,7 @@
 
 * If we insert, delete, or update one row, we need to update multiple pages. Therefore, we need many I/Os, which is expensive.
 
-* Column-oriented databases are best for **aggregation functions** because aggregations are usually performed on a specific column. Therefore, fewer I/Os are needed to fetch all the values of one column.
+* Column oriented databases are best for **aggregation functions** because aggregations are usually performed on a specific column. Therefore, fewer I/Os are needed to fetch all the values of one column.
 
 <p>
   <img src="./images/aggregate-row.png" width="45%">
@@ -54,4 +54,4 @@
 | Aggregation isn't as efficient                 | Amazing for ggregation |
 | Efficient for queries that access many columns | Inefficient for queries that access many columns |
 
-**Most databases use row-oriented storage by default, but some databases allow you to choose the storage model for each table.**
+**Most databases use row oriented storage by default, but some databases allow you to choose the storage model for each table.**

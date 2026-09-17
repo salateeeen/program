@@ -6,7 +6,7 @@ In some cases, we need to query multiple columns frequently. Instead of creating
 
 A composite index can be used for **searching, sorting, range queries, and covered queries**.
 
-## The Left-Hand Side (Leftmost) Concept
+## The Left Hand Side (Leftmost) Concept
 
 ```sql
 CREATE INDEX idx_grades_name_age
@@ -74,7 +74,7 @@ The **equality** condition narrows down the search first, the **sort** column ke
 
 The order of columns in a composite index is important because the database can efficiently use the index from the **leftmost columns**.
 
-### Composite Index vs. Multiple Indexes
+### Composite Index vs Multiple Indexes
 
 ```sql
 CREATE INDEX idx_test_A_B

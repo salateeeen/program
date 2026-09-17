@@ -40,9 +40,9 @@ The second transaction must wait until the first transaction **commits or rolls 
 
 4. **Column Lock:** Locks specific columns.
 
-## 2-Phase Locking
+## 2 Phase Locking
 
-In **Two-Phase Locking (2PL)**, a transaction goes through two phases:
+In **Two Phase Locking (2PL)**, a transaction goes through two phases:
 
 1. **Growing Phase:** The transaction can acquire locks but cannot release them.
 2. **Shrinking Phase:** The transaction can release locks but cannot acquire new ones.
@@ -55,7 +55,7 @@ Lock 1 → Lock 2 → Release 2 → Release 1
 
 ## SELECT ... FOR UPDATE
 
-We can use `SELECT ... FOR UPDATE` to acquire an **exclusive row-level lock** on the selected rows, preventing other transactions from modifying or locking those rows in conflicting ways.
+We can use `SELECT ... FOR UPDATE` to acquire an **exclusive row level lock** on the selected rows, preventing other transactions from modifying or locking those rows in conflicting ways.
 
 The locks are held until the transaction **commits or rolls back**.
 
@@ -63,7 +63,7 @@ This can be useful for preventing **race conditions** in systems such as booking
 
 ## In PostgreSQL
 
-If two transactions try to update the same row at the same time, PostgreSQL automatically uses row-level locking.
+If two transactions try to update the same row at the same time, PostgreSQL automatically uses row level locking.
 
 The second transaction waits until the first transaction releases its lock. After the first transaction commits, the second transaction can continue and work with the updated row.
 

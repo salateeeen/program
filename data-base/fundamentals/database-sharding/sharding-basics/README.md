@@ -22,7 +22,7 @@ We can use a **consistent hashing function** on the client side to map data to a
 
 We can also use the hash result when querying to determine which server contains the required data.
 
-### Simple Pseudo-Code
+### Simple Pseudo Code
 
 ```text
 function getServer(user_id):

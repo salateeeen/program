@@ -12,7 +12,7 @@ If a table has a very large number of rows, scanning the entire table can take m
 
 ![Million Rows](images/million-row.png)
 
-## Horizontal vs. Vertical Partitioning Strategy
+## Horizontal vs Vertical Partitioning Strategy
 
 * **Horizontal Partitioning**
 
@@ -42,7 +42,7 @@ If a table has a very large number of rows, scanning the entire table can take m
 
 2. An inefficient query could accidentally scan all partitions.
 
-## Horizontal Partitioning vs. Sharding
+## Horizontal Partitioning vs Sharding
 
 * **Horizontal Partitioning:** Splits a large table into multiple partitions within the same database server. The client is agnostic; it sends the same query, and the DBMS handles which partition should be accessed.
 

@@ -2,19 +2,19 @@
 
 ## What is Durability?
 
-**Durability:** If the client receives an acknowledgment from the DBMS for a write, the DBMS guarantees that the changes will not be lost and must be persisted in **non-volatile storage**.
+**Durability:** If the client receives an acknowledgment from the DBMS for a write, the DBMS guarantees that the changes will not be lost and must be persisted in **non volatile storage**.
 
 ## Durability Techniques
 
 * **Asynchronous Snapshot:** Write everything to memory and then flush the entire set of changes to disk at once.
 
-* **WAL (Write-Ahead Log):** Write all changes as a log before applying the actual changes to the database files. The log is flushed to persistent storage first, and then the actual changes can be written to disk. Once the work is completed, the corresponding log records can be marked as completed.
+* **WAL (Write Ahead Log):** Write all changes as a log before applying the actual changes to the database files. The log is flushed to persistent storage first, and then the actual changes can be written to disk. Once the work is completed, the corresponding log records can be marked as completed.
 
 ### Why Do We Need WAL?
 
 Because applying the actual changes to the database can be more expensive.
 
-For example, if we need to delete a row from an **index-organized table (IOT)**, we may need to:
+For example, if we need to delete a row from an **index organized table (IOT)**, we may need to:
 
   * Delete the row from the table and indexes.
   * Update the related states and metadata.
